@@ -18,8 +18,6 @@
                     <div class="card-title">{{ $movie['date'] }}</div>
                     <h5 class="card-title">Voto</h5>
                     <div class="card-title">{{ $movie['vote'] }}</div>
-
-                    <a href="" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
         @endforeach
