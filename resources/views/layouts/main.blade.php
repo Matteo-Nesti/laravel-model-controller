@@ -15,15 +15,19 @@
 </head>
 
 <body>
+    <div class="container">
+        <header>
+            <h1 class="text-center">I migliori film dei migliori film</h1>
+        </header>
 
 
+        <main class="mt-3">
+            @yield('main')
+        </main>
 
-    <main>
-        @yield('main')
-    </main>
-
-    {{-- scripts JS --}}
-    @yield('script')
+        {{-- scripts JS --}}
+        @yield('script')
+    </div>
 </body>
 
 </html>
